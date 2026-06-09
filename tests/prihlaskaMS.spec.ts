@@ -7,7 +7,6 @@ test.beforeEach(async ({ page }) => {
   //await page.setViewportSize({ width: 1920, height: 1080 });
   await page.goto('/');
   await page.waitForLoadState('networkidle');
-
   await page.getByText('Súhlasím', { exact: true }).click();
 });
 

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('klikanice', async ({ page }) => {
+test('klikanice', async ({ page }) => {
   await page.goto('https://saucedemo.com/');
   console.log(await page.locator('[data-test="username"]').isVisible());
   console.log(await page.locator('[data-test="login-button"]').isEnabled());

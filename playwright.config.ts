@@ -4,14 +4,21 @@ import { defineConfig, devices } from '@playwright/test';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// import dotenv from 'dotenv';
+ import * as dotenv from 'dotenv'
 // import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+const envName = process.env.ENV || 'dev';
+
+dotenv.config({
+  path: `./env/.env.${envName}`,
+  override: true,
+});
+
 
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  //globalSetup : require.resolve('./global-setup.ts'),
   timeout: 120_000,
   testDir: './tests',
   /* Run tests in files in parallel */
@@ -26,7 +33,8 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'https://test-eprihlasky.iedu.sk/',
+    //storageState: 'loginAuth.json',
+    baseURL: process.env.BASE_URL,  //'https://test-eprihlasky.iedu.sk/',
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 
@@ -38,7 +46,13 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      name: "setup", 
+      testMatch: /.*\.setup\.ts/, 
+      fullyParallel: false
+    },
+    {
       name: 'chromium',
+      //dependencies: ["setup"],
       use: { ...devices['Desktop Chrome'] },
     },
 

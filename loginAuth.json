@@ -1,0 +1,135 @@
+{
+  "cookies": [
+    {
+      "name": "uid",
+      "value": "7c5eb880-e154-4cc8-9b8d-c2f270d176a1",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1814709611.530031,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=ddb1f16d50b298b8:T=1781013610:RT=1781013610:S=AA-AfjbC0Fnv2KMXdeB41yPLP4wh",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1796565610,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "0d43a077-3e3d-46ed-afdf-8d64807c3acb|1781013610",
+      "domain": ".openx.net",
+      "path": "/",
+      "expires": 1812549610.555551,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.494653385.1781013611",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1815573611.327093,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1474468732.1781013611",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1781100011,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-109033876-1",
+      "value": "1",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1781013671,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InBpc3RhIiwicGFzc3dvcmQiOiJQQHNzdzByZCIsImlhdCI6MTc4MTAxMzYxMH0.9t-3qy_OmOi8phEQa8xWyYdzMa8hb2thBORAf06DLjM",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expires",
+      "value": "2026-06-16T14%3A00%3A10.009Z",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userID",
+      "value": "aad608a1-8004-4e72-8b93-34355f7a6ce5",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userName",
+      "value": "pista",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://demoqa.com",
+      "localStorage": [
+        {
+          "name": "_GESPSK-pubcid.org",
+          "value": "[\"pubcid.org\",null,1781013610227,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-crwdcntrl.net",
+          "value": "[\"crwdcntrl.net\",null,1781013610226,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-openx",
+          "value": "[\"openx\",\"eyJpIjoiRFVPZ2R6NDlSdTJ2MzQxa2dIdzZ5dz09In0=\",1781013610686,null,null,null,null,null,0]"
+        },
+        {
+          "name": "_GESPSK-id5-sync.com",
+          "value": "[\"id5-sync.com\",null,1781013610464,null,null,null,null,null,0,[106]]"
+        },
+        {
+          "name": "_GESPSK-esp.criteo.com",
+          "value": "[\"esp.criteo.com\",null,1781013610227,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-rtbhouse",
+          "value": "[\"rtbhouse\",null,1781013610363,null,null,null,null,null,0,[106]]"
+        }
+      ]
+    }
+  ]
+}
